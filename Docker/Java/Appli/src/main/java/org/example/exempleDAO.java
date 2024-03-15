@@ -86,7 +86,6 @@ public class exempleDAO implements personneDAO {
 
     @Override
     public void delete(int id) throws SQLException {
-
         this.connexion = connexionDB.connexion();
 
         String sql = "DELETE FROM personnes WHERE id = ?";
